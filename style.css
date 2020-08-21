@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+button {
+  background: yellow;
+  position: absolute;
+  top: 130px;
+  font-size: 20px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  perspective: 1000px;
+}
+
+.cube-box {
+  position: relative;
+  transform-style: preserve-3d;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box2 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box2 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box3 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box4 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate4;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box5 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate5;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cube-box6 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation-name: rotate6;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(1, 1, 1, 1);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  0% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+@keyframes rotate3 {
+  100% {
+    transform: rotate3d(0, 1, 0, 0);
+  }
+  40% {
+    transform: rotate3d(1, 0, 1, 360deg);
+  }
+}
+
+@keyframes rotate4 {
+  100% {
+    transform: rotate3d(0, 1, 1, 1);
+  }
+  20% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+@keyframes rotate5 {
+  50% {
+    transform: rotate3d(0, 1, 0, 1);
+  }
+  100% {
+    transform: rotate3d(0, 1, 1, 360deg);
+  }
+}
+
+@keyframes rotate6 {
+  0% {
+    transform: rotate3d(0, 0, 0, 1);
+  }
+  10% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+.cube {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.react {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.node {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./kisspng-node-js-javascript-website-development-express-js-weekly-2-5b7c78fc5a3e87.9717577015348840923697.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.html {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./html logo.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.css {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./css logo.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.scss {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./sass logo.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.vscode {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./vs code .png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.gatsby {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./gatsby logo.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.git {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url("./git logo.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.front {
+  transform: rotateX(0deg) translateZ(100px);
+  background: url("./js-logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.back {
+  background: url("./js-logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  transform: rotateX(180deg) translateZ(100px);
+}
+
+.right {
+  background: #ddcc30;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+  background: #ddcc30;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background: #ffeb37;
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background: #ebd834;
+}
