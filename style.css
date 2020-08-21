@@ -164,7 +164,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png");
+  background: url("./images/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -173,7 +173,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./kisspng-node-js-javascript-website-development-express-js-weekly-2-5b7c78fc5a3e87.9717577015348840923697.png");
+  background: url("./images/kisspng-node-js-javascript-website-development-express-js-weekly-2-5b7c78fc5a3e87.9717577015348840923697.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -182,7 +182,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./html logo.png");
+  background: url("./images/html logo.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -191,7 +191,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./css logo.png");
+  background: url("./images/css logo.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -200,7 +200,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./sass logo.png");
+  background: url("./images/sass logo.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -209,7 +209,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./vs code .png");
+  background: url("./images/vs code .png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -218,7 +218,7 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./gatsby logo.png");
+  background: url("./images/gatsby logo.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -227,20 +227,20 @@ button {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url("./git logo.png");
+  background: url("./images/git logo.png");
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
 
 .front {
   transform: rotateX(0deg) translateZ(100px);
-  background: url("./js-logo.png");
+  background: url("./images/js-logo.png");
   background-repeat: no-repeat;
   background-size: 200px 200px;
 }
 
 .back {
-  background: url("./js-logo.png");
+  background: url("./images/js-logo.png");
   background-repeat: no-repeat;
   background-size: 200px 200px;
   transform: rotateX(180deg) translateZ(100px);
